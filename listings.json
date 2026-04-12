@@ -21,8 +21,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Roosendaal et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T16:55:46.231139",
-    "last_seen": "2026-04-12T16:55:46.231139",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.683708",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_753708125836629_1632326777974755",
@@ -49,8 +50,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Uccle et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, le nombre de chambres, si le logement est meublé ou non et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-08-01",
     "first_seen": "2026-04-12T16:55:46.215636",
-    "last_seen": "2026-04-12T16:55:46.215636",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.662030",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_753708125836629_listings_1631084094765690",
@@ -75,7 +77,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.263109",
     "last_seen": "2026-04-12T15:45:27.263109",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_753708125836629_listings_1631158984758201",
@@ -105,7 +108,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.261964",
     "last_seen": "2026-04-12T15:45:27.261964",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_753708125836629_listings_1631135791427187",
@@ -132,7 +136,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.261586",
     "last_seen": "2026-04-12T15:45:27.261586",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_753708125836629_listings_1632173457990087",
@@ -161,7 +166,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.261228",
     "last_seen": "2026-04-12T15:45:27.261228",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_753708125836629_listings_1631781924695907",
@@ -188,7 +194,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.260874",
     "last_seen": "2026-04-12T15:45:27.260874",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_753708125836629_listings_1630071921533574",
@@ -218,7 +225,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.260511",
     "last_seen": "2026-04-12T15:45:27.260511",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_755415781242784_26454156927608650",
@@ -243,7 +251,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.260199",
     "last_seen": "2026-04-12T15:45:27.260199",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_755415781242784_26527355713622104",
@@ -273,7 +282,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.259835",
     "last_seen": "2026-04-12T15:45:27.259835",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_755415781242784_26538188979205444",
@@ -298,7 +308,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.259442",
     "last_seen": "2026-04-12T15:45:27.259442",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_755415781242784_26538666019157740",
@@ -323,7 +334,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.259053",
     "last_seen": "2026-04-12T15:45:27.259053",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_755415781242784_26511312755226400",
@@ -348,7 +360,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.258730",
     "last_seen": "2026-04-12T15:45:27.258730",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_755415781242784_26538824842475191",
@@ -378,7 +391,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.258406",
     "last_seen": "2026-04-12T15:45:27.258406",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_755415781242784_26520025734355102",
@@ -403,7 +417,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.257431",
     "last_seen": "2026-04-12T15:45:27.257431",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_755415781242784_26536197742737901",
@@ -433,7 +448,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.256211",
     "last_seen": "2026-04-12T15:45:27.256211",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_755415781242784_26570136059344069",
@@ -461,7 +477,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.255926",
     "last_seen": "2026-04-12T15:45:27.255926",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_274433432584391_27209999758601060",
@@ -486,7 +503,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.255614",
     "last_seen": "2026-04-12T15:45:27.255614",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_274433432584391_27136953152572388",
@@ -516,7 +534,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.254985",
     "last_seen": "2026-04-12T15:45:27.254985",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_274433432584391_27318607321073636",
@@ -544,7 +563,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.253642",
     "last_seen": "2026-04-12T15:45:27.253642",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1508624389410750_4308160769457084",
@@ -571,7 +591,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.252751",
     "last_seen": "2026-04-12T15:45:27.252751",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1508624389410750_4308730242733470",
@@ -596,7 +617,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.252345",
     "last_seen": "2026-04-12T15:45:27.252345",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1508624389410750_4308073462799148",
@@ -623,7 +645,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.251976",
     "last_seen": "2026-04-12T15:45:27.251976",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1508624389410750_4310600135879814",
@@ -653,7 +676,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.251524",
     "last_seen": "2026-04-12T15:45:27.251524",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1508624389410750_4302617386678089",
@@ -681,7 +705,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.251120",
     "last_seen": "2026-04-12T15:45:27.251120",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1508624389410750_4313130202293474",
@@ -711,7 +736,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.250398",
     "last_seen": "2026-04-12T15:45:27.250398",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1508624389410750_4310327485907079",
@@ -738,7 +764,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.249661",
     "last_seen": "2026-04-12T15:45:27.249661",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1508624389410750_4314173172189177",
@@ -763,7 +790,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.248790",
     "last_seen": "2026-04-12T15:45:27.248790",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1508624389410750_4315063655433462",
@@ -790,7 +818,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:45:27.248064",
     "last_seen": "2026-04-12T15:45:27.248064",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_lesvoisinsdecourtsaintetienne_1935116257373998",
@@ -815,7 +844,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.440751",
     "last_seen": "2026-04-12T15:38:00.440751",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1006567129391571_26347792991508969",
@@ -840,7 +870,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.437902",
     "last_seen": "2026-04-12T15:38:00.437902",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1006567129391571_26346927071595561",
@@ -865,7 +896,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.435957",
     "last_seen": "2026-04-12T15:38:00.435957",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1006567129391571_26385703597717908",
@@ -890,7 +922,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.433656",
     "last_seen": "2026-04-12T15:38:00.433656",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1006567129391571_26384672157821052",
@@ -915,7 +948,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.431237",
     "last_seen": "2026-04-12T15:38:00.431237",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1006567129391571_26396918269929774",
@@ -940,7 +974,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.427068",
     "last_seen": "2026-04-12T15:38:00.427068",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1006567129391571_26432437689711165",
@@ -965,7 +1000,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.411769",
     "last_seen": "2026-04-12T15:38:00.411769",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1006567129391571_26442710555350545",
@@ -990,7 +1026,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.407759",
     "last_seen": "2026-04-12T15:38:00.407759",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_SeLogerDansLeBW_397769388165224",
@@ -1025,7 +1062,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.356415",
     "last_seen": "2026-04-12T16:55:46.230620",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_SeLogerDansLeBW_464624674813028",
@@ -1050,7 +1088,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.355921",
     "last_seen": "2026-04-12T15:38:00.355921",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_SeLogerDansLeBW_683047702970723",
@@ -1076,8 +1115,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.355410",
-    "last_seen": "2026-04-12T16:55:46.230331",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.683447",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_SeLogerDansLeBW_672634050678755",
@@ -1103,8 +1143,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.354782",
-    "last_seen": "2026-04-12T15:38:00.354782",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.683190",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_444429119063136_445087065664008",
@@ -1129,7 +1170,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.353809",
     "last_seen": "2026-04-12T15:38:00.353809",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_444429119063136_471419799697401",
@@ -1163,8 +1205,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.353284",
-    "last_seen": "2026-04-12T16:55:46.229543",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.682939",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_444429119063136_637644189741627",
@@ -1188,8 +1231,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.352768",
-    "last_seen": "2026-04-12T15:38:00.352768",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.682669",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_444429119063136_597352587104121",
@@ -1214,7 +1258,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.352272",
     "last_seen": "2026-04-12T15:38:00.352272",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_444429119063136_444430785729636",
@@ -1248,8 +1293,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, le nombre de chambres, la date de disponibilité, si le logement est meublé ou non, et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.351745",
-    "last_seen": "2026-04-12T15:38:00.351745",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.682376",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_444429119063136_987567494749293",
@@ -1280,8 +1326,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis intéressée. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, le nombre de chambres, la date de disponibilité, si le logement est meublé ou non, et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.351183",
-    "last_seen": "2026-04-12T16:55:46.229289",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.680986",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_444429119063136_1027540057418703",
@@ -1316,7 +1363,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.350685",
     "last_seen": "2026-04-12T16:55:46.229016",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_444429119063136_1209927972513243",
@@ -1348,8 +1396,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce pour la villa à Rixensart et je suis très intéressée. Pourriez-vous me préciser la date de disponibilité exacte et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.350087",
-    "last_seen": "2026-04-12T16:55:46.228635",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.680698",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_444429119063136_1631326883706681",
@@ -1374,7 +1423,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.349623",
     "last_seen": "2026-04-12T15:38:00.349623",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_444429119063136_1744230985749603",
@@ -1408,8 +1458,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.349180",
-    "last_seen": "2026-04-12T16:55:46.227979",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.679570",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_444429119063136_1748964071942961",
@@ -1443,8 +1494,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce aux Papeteries de Genval et je suis très intéressée — le cadre est magnifique. Pourriez-vous me préciser le loyer mensuel, la superficie, le nombre de chambres, la date de disponibilité, si le logement est meublé ou non, et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.348669",
-    "last_seen": "2026-04-12T16:55:46.227711",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.679316",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_444429119063136_1815567931949241",
@@ -1468,8 +1520,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.348283",
-    "last_seen": "2026-04-12T16:55:46.227383",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.679037",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_444429119063136_2012798622226170",
@@ -1494,7 +1547,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.347890",
     "last_seen": "2026-04-12T15:38:00.347890",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_444429119063136_2016348461871186",
@@ -1518,8 +1572,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.347487",
-    "last_seen": "2026-04-12T16:55:46.226796",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.677512",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_444429119063136_1982729441899755",
@@ -1543,8 +1598,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.346588",
-    "last_seen": "2026-04-12T16:55:46.226477",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.677249",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_immo.brabant.wallon.et.bruxelles_539001721300786",
@@ -1569,7 +1625,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.346112",
     "last_seen": "2026-04-12T15:38:00.346112",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_immo.brabant.wallon.et.bruxelles_616439353557022",
@@ -1594,7 +1651,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.345650",
     "last_seen": "2026-04-12T15:38:00.345650",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_immo.brabant.wallon.et.bruxelles_652701239930833",
@@ -1619,7 +1677,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.345140",
     "last_seen": "2026-04-12T15:38:00.345140",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_immo.brabant.wallon.et.bruxelles_657010662833224",
@@ -1644,7 +1703,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.343908",
     "last_seen": "2026-04-12T15:38:00.343908",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_immo.brabant.wallon.et.bruxelles_690683142799309",
@@ -1668,8 +1728,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.342204",
-    "last_seen": "2026-04-12T16:55:46.225419",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.676142",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_immo.brabant.wallon.et.bruxelles_740095557858067",
@@ -1694,7 +1755,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.340390",
     "last_seen": "2026-04-12T15:38:00.340390",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_immo.brabant.wallon.et.bruxelles_1303251241542493",
@@ -1729,7 +1791,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.337167",
     "last_seen": "2026-04-12T15:38:00.337167",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1113050472161253_3843732462426360",
@@ -1763,8 +1826,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée. Pourriez-vous me préciser le loyer mensuel, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.335943",
-    "last_seen": "2026-04-12T16:55:46.224536",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.674658",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1113050472161253_3883376381795301",
@@ -1788,8 +1852,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser la localisation exacte, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.335460",
-    "last_seen": "2026-04-12T16:55:46.224282",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.674366",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1113050472161253_3892162130916726",
@@ -1818,8 +1883,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.334476",
-    "last_seen": "2026-04-12T16:55:46.223798",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.673006",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1113050472161253_3924885900977682",
@@ -1843,8 +1909,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.333079",
-    "last_seen": "2026-04-12T16:55:46.223511",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.672638",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1113050472161253_3936320126500926",
@@ -1878,8 +1945,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée. Pourriez-vous me préciser le loyer mensuel, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.332467",
-    "last_seen": "2026-04-12T16:55:46.223215",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.672315",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_bwalouer_3309221115923503",
@@ -1913,8 +1981,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée. Pourriez-vous me préciser le loyer mensuel, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.332038",
-    "last_seen": "2026-04-12T16:55:46.222838",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.672057",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_bwalouer_3309217269257221",
@@ -1938,8 +2007,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser la localisation exacte, la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.331617",
-    "last_seen": "2026-04-12T16:55:46.222532",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.671811",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_bwalouer_3309216479257300",
@@ -1968,8 +2038,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.331126",
-    "last_seen": "2026-04-12T16:55:46.222276",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.671540",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_bwalouer_3308412292671052",
@@ -2003,8 +2074,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée. Pourriez-vous me préciser le loyer mensuel, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.330676",
-    "last_seen": "2026-04-12T16:55:46.222030",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.671289",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_bwalouer_3307826279396320",
@@ -2029,7 +2101,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.329739",
     "last_seen": "2026-04-12T15:38:00.329739",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_bwalouer_3309621742550107",
@@ -2063,8 +2136,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée. Pourriez-vous me préciser le loyer mensuel, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.329181",
-    "last_seen": "2026-04-12T16:55:46.221123",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.669410",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_bwalouer_3310457189133229",
@@ -2088,8 +2162,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.328303",
-    "last_seen": "2026-04-12T16:55:46.220791",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.669155",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_bwalouer_3310317869147161",
@@ -2116,7 +2191,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.327869",
     "last_seen": "2026-04-12T15:38:00.327869",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_bwalouer_3310385312473750",
@@ -2146,7 +2222,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.327385",
     "last_seen": "2026-04-12T15:38:00.327385",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_bwalouer_3310336152478666",
@@ -2180,8 +2257,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée. Pourriez-vous me préciser le loyer mensuel, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.326868",
-    "last_seen": "2026-04-12T16:55:46.220544",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.668853",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_bwalouer_3310116492500632",
@@ -2215,8 +2293,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée. Pourriez-vous me préciser le loyer mensuel, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.325890",
-    "last_seen": "2026-04-12T16:55:46.220303",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.668605",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_bwalouer_3310103519168596",
@@ -2250,8 +2329,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.325395",
-    "last_seen": "2026-04-12T16:55:46.220070",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.668363",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_bwalouer_3308682115977403",
@@ -2285,8 +2365,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.324813",
-    "last_seen": "2026-04-12T16:55:46.219797",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.668104",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1142157332585236_3738309449636665",
@@ -2320,8 +2401,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée. Pourriez-vous me préciser le loyer mensuel, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.323029",
-    "last_seen": "2026-04-12T16:55:46.218950",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.666771",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1142157332585236_3848702261930716",
@@ -2355,8 +2437,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée. Pourriez-vous me préciser le loyer mensuel, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.321333",
-    "last_seen": "2026-04-12T16:55:46.217763",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.665696",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1142157332585236_3895020827298859",
@@ -2381,7 +2464,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.320050",
     "last_seen": "2026-04-12T15:38:00.320050",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1142157332585236_3938769812923960",
@@ -2411,7 +2495,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.319592",
     "last_seen": "2026-04-12T15:38:00.319592",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1142157332585236_3959163717551236",
@@ -2445,8 +2530,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée. Pourriez-vous me préciser le loyer mensuel, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.318624",
-    "last_seen": "2026-04-12T16:55:46.217484",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.665425",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1142157332585236_3961620573972217",
@@ -2480,8 +2566,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée. Pourriez-vous me préciser le loyer mensuel, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.317938",
-    "last_seen": "2026-04-12T16:55:46.217220",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.665180",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1142157332585236_3974660402668234",
@@ -2515,8 +2602,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée. Pourriez-vous me préciser le loyer mensuel, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.316874",
-    "last_seen": "2026-04-12T16:55:46.216951",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.664912",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_1142157332585236_3977620072372267",
@@ -2550,8 +2638,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée. Pourriez-vous me préciser le loyer mensuel, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.315925",
-    "last_seen": "2026-04-12T16:55:46.216562",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.663896",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_753708125836629_1631158984758201",
@@ -2580,8 +2669,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.315138",
-    "last_seen": "2026-04-12T16:55:46.216315",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.663633",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_753708125836629_1631135791427187",
@@ -2608,7 +2698,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.314536",
     "last_seen": "2026-04-12T15:38:00.314536",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_753708125836629_1631745018032931",
@@ -2639,8 +2730,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée. Pourriez-vous me préciser le loyer mensuel, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.313067",
-    "last_seen": "2026-04-12T16:55:46.216073",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.663342",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_753708125836629_1631781924695907",
@@ -2672,7 +2764,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.311858",
     "last_seen": "2026-04-12T15:38:00.311858",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_753708125836629_1630071921533574",
@@ -2701,8 +2794,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.311374",
-    "last_seen": "2026-04-12T16:55:46.215382",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.661759",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_195527370457521_listings_26892294387020790",
@@ -2731,8 +2825,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.310845",
-    "last_seen": "2026-04-12T16:55:46.215027",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.660252",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_195527370457521_26892540116996217",
@@ -2761,8 +2856,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.310312",
-    "last_seen": "2026-04-12T16:55:46.214770",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.659960",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_195527370457521_26892561626994066",
@@ -2792,7 +2888,8 @@
     "available_date": "2025-05-01",
     "first_seen": "2026-04-12T15:38:00.309793",
     "last_seen": "2026-04-12T15:38:00.309793",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_195527370457521_26892684773648418",
@@ -2821,8 +2918,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.309340",
-    "last_seen": "2026-04-12T16:55:46.213184",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.657415",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_195527370457521_26893022303614665",
@@ -2849,8 +2947,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.308129",
-    "last_seen": "2026-04-12T16:55:46.212903",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.657121",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_195527370457521_26893259070257655",
@@ -2879,8 +2978,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, si le logement est meublé ou non et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2025-06-01",
     "first_seen": "2026-04-12T15:38:00.307632",
-    "last_seen": "2026-04-12T16:55:46.212584",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.656813",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_195527370457521_26895247840058778",
@@ -2909,8 +3009,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.306639",
-    "last_seen": "2026-04-12T16:55:46.212125",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.653581",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_195527370457521_26895676490015913",
@@ -2939,8 +3040,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser la localisation exacte, la superficie, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.306092",
-    "last_seen": "2026-04-12T16:55:46.211667",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.651795",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_BXLaLOUER_4357581684458169",
@@ -2969,8 +3071,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.305510",
-    "last_seen": "2026-04-12T16:55:46.211264",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.650593",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_BXLaLOUER_4359367344279603",
@@ -2999,8 +3102,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser la localisation exacte, la superficie, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.303289",
-    "last_seen": "2026-04-12T16:55:46.210945",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.650196",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_BXLaLOUER_4360043524211985",
@@ -3029,8 +3133,9 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.302580",
-    "last_seen": "2026-04-12T16:55:46.210488",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.646654",
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_BXLaLOUER_4354672058082465",
@@ -3060,7 +3165,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.301970",
     "last_seen": "2026-04-12T15:38:00.301970",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_BXLaLOUER_4360809890802015",
@@ -3090,7 +3196,8 @@
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.301316",
     "last_seen": "2026-04-12T15:38:00.301316",
-    "status": "new"
+    "status": "new",
+    "listing_score": null
   },
   {
     "id": "fb_group_BXLaLOUER_4360871997462471",
@@ -3119,7 +3226,8 @@
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel et la date de disponibilité ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-12T15:38:00.300219",
-    "last_seen": "2026-04-12T16:55:46.209701",
-    "status": "new"
+    "last_seen": "2026-04-12T18:41:54.645733",
+    "status": "new",
+    "listing_score": null
   }
 ]
