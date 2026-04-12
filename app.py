@@ -176,6 +176,9 @@ def _avail_matches(listing):
 
 listings = [l for l in listings if _avail_matches(l)]
 
+# Sort by listing_score descending (nulls last)
+listings.sort(key=lambda l: l.get("listing_score") or 0, reverse=True)
+
 # ---------------------------------------------------------------------------
 # Header stats
 # ---------------------------------------------------------------------------
