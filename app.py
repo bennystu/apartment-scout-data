@@ -117,7 +117,7 @@ with st.sidebar:
     train_none = st.checkbox("No train nearby", value=True)
 
     min_score = st.slider(
-        "Min photo score", 1.0, 5.0, 2.5, step=0.5,
+        "Min photo score", 1.0, 5.0, 1.0, step=0.5,
         help="1 = poor, 5 = excellent. Listings without photos are always shown."
     )
 
@@ -206,16 +206,16 @@ def _avail_matches(listing):
     d = listing.get("available_date")
     if not d:
         return avail_unknown
+    if d < "2026-04-01":
+        return avail_unknown  # past date = available now/immediately
     if d.startswith("2026-04"):
         return avail_april
     if d.startswith("2026-05"):
         return avail_may
     if d.startswith("2026-06"):
         return avail_june
-    if d < "2026-04-01":
-        return False   # in the past — never show
     if d > "2026-06-30":
-        return False   # too far out — never show
+        return False   # July+ — too far out, always hide
     return avail_unknown
 
 listings = [l for l in listings if _avail_matches(l)]
