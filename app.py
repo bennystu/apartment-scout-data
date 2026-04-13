@@ -78,7 +78,7 @@ if _USE_JSON:
         pass
 
 else:
-    from db import init_db, get_listings, update_status
+    from db import init_db, get_listings, update_status, save_feedback
     init_db()
 
 st.set_page_config(
@@ -99,10 +99,21 @@ with st.sidebar:
     st.subheader("Price")
     price_range = st.slider("€/mo", 400, 1300, (400, 1100), step=50)
 
+    st.subheader("Bedrooms")
+    bed_any = st.checkbox("Any", value=True)
+    bed_studio = st.checkbox("Studio", value=True)
+    bed_1 = st.checkbox("1 bed", value=True)
+    bed_2 = st.checkbox("2 bed", value=True)
+
     st.subheader("Location")
-    KNOWN_TOWNS = ["Rixensart", "Genval", "La Hulpe", "Court-Saint-Étienne", "Profondsart", "Waterloo", "Braine-l'Alleud"]
+    KNOWN_TOWNS = ["Rixensart", "Genval", "La Hulpe", "Court-Saint-Étienne", "Profondsart"]
     town_filters = {t: st.checkbox(t, value=True) for t in KNOWN_TOWNS}
     other_towns = st.checkbox("Other / unknown", value=True)
+
+    st.subheader("Train line")
+    train_l161 = st.checkbox("L161 → Bruxelles-Luxembourg", value=True)
+    train_l124 = st.checkbox("L124 → Bruxelles-Midi", value=True)
+    train_none = st.checkbox("No train nearby", value=True)
 
     min_score = st.slider(
         "Min photo score", 1.0, 5.0, 2.5, step=0.5,
@@ -119,6 +130,7 @@ with st.sidebar:
     avail_may = st.checkbox("May 2026", value=True)
     avail_june = st.checkbox("June 2026", value=True)
     avail_unknown = st.checkbox("No start date listed", value=True)
+    # July+ always hidden — too far out
 
     hide_dismissed = st.checkbox("Hide dismissed", value=True)
 
@@ -147,6 +159,23 @@ listings = get_listings(
 # Price minimum
 listings = [l for l in listings if not l.get("price") or l["price"] >= price_range[0]]
 
+# Bedrooms filter
+def _beds_matches(listing):
+    if bed_any:
+        return True
+    beds = listing.get("bedrooms")
+    if beds is None:
+        return True  # unknown — always show
+    if beds == 0:
+        return bed_studio
+    if beds == 1:
+        return bed_1
+    if beds == 2:
+        return bed_2
+    return False
+
+listings = [l for l in listings if _beds_matches(l)]
+
 # Location filter
 def _town_matches(listing):
     town = (listing.get("town") or "").strip()
@@ -156,6 +185,17 @@ def _town_matches(listing):
     return other_towns  # no match → "Other"
 
 listings = [l for l in listings if _town_matches(l)]
+
+# Train line filter
+def _train_matches(listing):
+    info = listing.get("train_info") or ""
+    if "L161" in info:
+        return train_l161
+    if "L124" in info:
+        return train_l124
+    return train_none
+
+listings = [l for l in listings if _train_matches(l)]
 
 # Availability filter
 def _avail_matches(listing):
@@ -176,18 +216,19 @@ def _avail_matches(listing):
 
 listings = [l for l in listings if _avail_matches(l)]
 
-# Sort by listing_score descending (nulls last)
-listings.sort(key=lambda l: l.get("listing_score") or 0, reverse=True)
+# Sort by match_score descending (nulls last)
+listings.sort(key=lambda l: l.get("match_score") or 0, reverse=True)
 
 # ---------------------------------------------------------------------------
 # Header stats
 # ---------------------------------------------------------------------------
 total = len(listings)
 new_count = sum(1 for l in listings if l["status"] == "new")
-col1, col2, col3 = st.columns(3)
-col1.metric("Total listings", total)
+col1, col2, col3, col4 = st.columns(4)
+col1.metric("Total", total)
 col2.metric("New", new_count)
-col3.metric("Favorites", sum(1 for l in listings if l["status"] == "favorite"))
+col3.metric("Favourites", sum(1 for l in listings if l["status"] == "favorite"))
+col4.metric("Contacted", sum(1 for l in listings if l["status"] == "contacted"))
 
 if not listings:
     st.info("No listings match your filters. Try adjusting the sliders, or run `python run.py` to scrape new ones.")
@@ -202,7 +243,7 @@ PAGE_SIZE = 10
 total_pages = max(1, (total + PAGE_SIZE - 1) // PAGE_SIZE)
 
 # Reset to page 0 whenever filters change
-filter_key = f"{price_range}_{min_score}_{furnished_filter}_{hide_dismissed}_{avail_april}_{avail_may}_{avail_june}_{avail_unknown}_{''.join(str(v) for v in town_filters.values())}_{other_towns}"
+filter_key = f"{price_range}_{min_score}_{furnished_filter}_{hide_dismissed}_{avail_april}_{avail_may}_{avail_june}_{avail_unknown}_{''.join(str(v) for v in town_filters.values())}_{other_towns}_{bed_any}_{bed_studio}_{bed_1}_{bed_2}_{train_l161}_{train_l124}_{train_none}"
 if st.session_state.get("filter_key") != filter_key:
     st.session_state.page = 0
     st.session_state.filter_key = filter_key
@@ -233,30 +274,40 @@ for listing in page_listings:
     badge = "🆕 " if is_new else ("⭐ " if is_fav else "")
     price_str = f"€{listing['price']}/mo" if listing["price"] else "Price unknown"
     town_str = listing.get("town") or "Location unknown"
-    dist_str = f" · {listing['distance_km']}km from AGC" if listing.get("distance_km") else ""
+    dist_str = f" · {listing['distance_km']}km AGC" if listing.get("distance_km") else ""
+    dist_bxl_str = f" · {listing['distance_bxl_km']}km BXL" if listing.get("distance_bxl_km") else ""
+    train_str = f" · 🚆 {listing['train_info']}" if listing.get("train_info") else ""
     furnished_str = ""
     if listing.get("furnished") == 1:
         furnished_str = " · Furnished"
     elif listing.get("furnished") == 0:
         furnished_str = " · Unfurnished"
 
-    score_str = f" · ⭐ {listing['vision_score']:.1f}/5" if listing.get("vision_score") else ""
+    m2_str = f" · {listing['m2']}m²" if listing.get("m2") else ""
+    beds_str = f" · {listing['bedrooms']}bed" if listing.get("bedrooms") else (" · studio" if listing.get("bedrooms") == 0 else "")
+    match_str = f" · match {listing['match_score']:.1f}/10" if listing.get("match_score") is not None else ""
+    data_str = f" · data {listing['data_score']}/7" if listing.get("data_score") is not None else ""
+    score_str = f" · 📷 {listing['vision_score']:.1f}/5" if listing.get("vision_score") else ""
+    score_str = match_str + data_str + score_str
     avail_str = f" · 📅 {listing['available_from']}" if listing.get("available_from") else ""
 
     with st.expander(
-        f"{badge}{price_str} — {town_str}{dist_str}{furnished_str}{avail_str}{score_str}",
+        f"{badge}{price_str} — {town_str}{dist_str}{dist_bxl_str}{train_str}{beds_str}{m2_str}{furnished_str}{avail_str}{score_str}",
         expanded=False,
     ):
-        # Photos row
+        # Photos grid — all photos, 3 per row
         photos = listing.get("photos") or []
         if photos:
-            photo_cols = st.columns(2)
-            for i, url in enumerate(photos[:2]):
-                with photo_cols[i]:
-                    try:
-                        st.image(url, use_container_width=True)
-                    except Exception:
-                        st.caption("(photo unavailable)")
+            cols_per_row = 3
+            for row_start in range(0, len(photos), cols_per_row):
+                row_photos = photos[row_start:row_start + cols_per_row]
+                photo_cols = st.columns(len(row_photos))
+                for i, url in enumerate(row_photos):
+                    with photo_cols[i]:
+                        try:
+                            st.image(url, use_container_width=True)
+                        except Exception:
+                            st.caption("(photo unavailable)")
 
         # Details grid
         detail_col, action_col = st.columns([3, 1])
@@ -272,6 +323,9 @@ for listing in page_listings:
                 details.append(f"**Bedrooms:** {listing['bedrooms']}")
             if listing.get("available_from"):
                 details.append(f"**Available:** {listing['available_from']}")
+            if listing.get("contract_length"):
+                labels = {"short": "Short-stay", "1year": "1-year lease", "3year": "3-year lease"}
+                details.append(f"**Contract:** {labels.get(listing['contract_length'], listing['contract_length'])}")
             if listing.get("contact"):
                 details.append(f"**Contact:** {listing['contact']}")
             if listing.get("source"):
@@ -301,10 +355,45 @@ for listing in page_listings:
                     update_status(lid, "new")
                     st.rerun()
 
+            if listing["status"] != "contacted":
+                if st.button("📨 Contacted", key=f"con_{lid}"):
+                    update_status(lid, "contacted")
+                    st.rerun()
+            else:
+                st.markdown("📨 *Contacted*")
+
             if listing["status"] != "dismissed":
                 if st.button("✗ Dismiss", key=f"dis_{lid}"):
-                    update_status(lid, "dismissed")
-                    st.rerun()
+                    st.session_state[f"dismissing_{lid}"] = True
+                if st.session_state.get(f"dismissing_{lid}"):
+                    QUICK_REASONS = [
+                        "Too far from train station",
+                        "Ground floor",
+                        "Too dark / poor lighting",
+                        "Rooms look too small",
+                        "Poor condition",
+                        "Too noisy area",
+                        "Other",
+                    ]
+                    reason = st.selectbox(
+                        "Why?", QUICK_REASONS, key=f"reason_sel_{lid}"
+                    )
+                    if reason == "Other":
+                        reason = st.text_input(
+                            "Describe reason", key=f"reason_txt_{lid}"
+                        )
+                    col_ok, col_cancel = st.columns(2)
+                    with col_ok:
+                        if st.button("Confirm", key=f"dis_ok_{lid}"):
+                            if reason:
+                                save_feedback(lid, reason)
+                            update_status(lid, "dismissed")
+                            st.session_state.pop(f"dismissing_{lid}", None)
+                            st.rerun()
+                    with col_cancel:
+                        if st.button("Cancel", key=f"dis_cancel_{lid}"):
+                            st.session_state.pop(f"dismissing_{lid}", None)
+                            st.rerun()
 
         # French inquiry message
         if listing.get("inquiry_message"):
