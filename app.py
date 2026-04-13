@@ -106,6 +106,7 @@ with st.sidebar:
     bed_2 = st.checkbox("2 bed", value=True)
 
     st.subheader("Location")
+    max_distance_km = st.slider("Max distance from AGC (km)", 1, 35, 10, step=1)
     KNOWN_TOWNS = ["Rixensart", "Genval", "La Hulpe", "Court-Saint-Étienne", "Profondsart"]
     town_filters = {t: st.checkbox(t, value=True) for t in KNOWN_TOWNS}
     other_towns = st.checkbox("Other / unknown", value=True)
@@ -176,6 +177,9 @@ def _beds_matches(listing):
 
 listings = [l for l in listings if _beds_matches(l)]
 
+# Distance filter
+listings = [l for l in listings if (l.get("distance_km") or 0) <= max_distance_km or not l.get("distance_km")]
+
 # Location filter
 def _town_matches(listing):
     town = (listing.get("town") or "").strip()
@@ -243,7 +247,7 @@ PAGE_SIZE = 10
 total_pages = max(1, (total + PAGE_SIZE - 1) // PAGE_SIZE)
 
 # Reset to page 0 whenever filters change
-filter_key = f"{price_range}_{min_score}_{furnished_filter}_{hide_dismissed}_{avail_april}_{avail_may}_{avail_june}_{avail_unknown}_{''.join(str(v) for v in town_filters.values())}_{other_towns}_{bed_any}_{bed_studio}_{bed_1}_{bed_2}_{train_l161}_{train_l124}_{train_none}"
+filter_key = f"{price_range}_{min_score}_{furnished_filter}_{hide_dismissed}_{avail_april}_{avail_may}_{avail_june}_{avail_unknown}_{''.join(str(v) for v in town_filters.values())}_{other_towns}_{bed_any}_{bed_studio}_{bed_1}_{bed_2}_{train_l161}_{train_l124}_{train_none}_{max_distance_km}"
 if st.session_state.get("filter_key") != filter_key:
     st.session_state.page = 0
     st.session_state.filter_key = filter_key
