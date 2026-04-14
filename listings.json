@@ -1194,7 +1194,7 @@
     "available_date": "2026-04-01",
     "first_seen": "2026-04-13T18:27:11.331756",
     "last_seen": "2026-04-13T18:27:11.331756",
-    "status": "contacted",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": 18.1,
     "train_info": "L161 → Bruxelles-Luxembourg (Rixensart, 0.2km)",
@@ -1202,7 +1202,8 @@
     "data_score": 3.25,
     "match_score": 5.8,
     "confidence": "high",
-    "ambiguity_note": null
+    "ambiguity_note": null,
+    "dismiss_reason": "Duplicate listing"
   },
   {
     "id": "fb_group_1508624389410750_4296626870610474",
