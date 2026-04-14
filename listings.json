@@ -1721,7 +1721,7 @@
     "available_date": null,
     "first_seen": "2026-04-13T13:07:18.130457",
     "last_seen": "2026-04-13T18:27:11.365699",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": null,
     "train_info": null,
@@ -1729,7 +1729,8 @@
     "data_score": 2,
     "match_score": 3.5,
     "confidence": "low",
-    "ambiguity_note": "Missing key details like price, availability date, and contact information."
+    "ambiguity_note": "Missing key details like price, availability date, and contact information.",
+    "dismiss_reason": "Old publication (2024)"
   },
   {
     "id": "fb_group_SeLogerDansLeBW_1083368146272008",
