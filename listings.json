@@ -2116,7 +2116,7 @@
     "available_date": "2026-04-30",
     "first_seen": "2026-04-13T13:07:18.108668",
     "last_seen": "2026-04-13T18:27:11.324919",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": 22.2,
     "train_info": "L161 → Bruxelles-Luxembourg (Ottignies, 1.8km)",
@@ -2124,7 +2124,8 @@
     "data_score": 1.75,
     "match_score": 3.0,
     "confidence": "low",
-    "ambiguity_note": "No price, area, or contact details provided in the main post."
+    "ambiguity_note": "No price, area, or contact details provided in the main post.",
+    "dismiss_reason": "Too expensive"
   },
   {
     "id": "fb_group_1142157332585236_listings_3848702261930716",
