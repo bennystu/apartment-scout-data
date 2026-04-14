@@ -1228,7 +1228,7 @@
     "available_date": null,
     "first_seen": "2026-04-13T18:27:11.322367",
     "last_seen": "2026-04-13T18:27:11.322367",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": null,
     "train_info": null,
@@ -1236,7 +1236,8 @@
     "data_score": 2.5,
     "match_score": 5.7,
     "confidence": "medium",
-    "ambiguity_note": "author role unclear — could be tenant"
+    "ambiguity_note": "author role unclear — could be tenant",
+    "dismiss_reason": "Post from someone looking to rent"
   },
   {
     "id": "fb_group_1508624389410750_4306152412991253",
