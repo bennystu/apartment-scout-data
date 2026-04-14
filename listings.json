@@ -1415,7 +1415,7 @@
     "available_date": null,
     "first_seen": "2026-04-13T13:07:18.128709",
     "last_seen": "2026-04-13T18:27:11.363833",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": 17.8,
     "train_info": null,
@@ -1423,7 +1423,8 @@
     "data_score": 4,
     "match_score": 5.1,
     "confidence": "medium",
-    "ambiguity_note": "No availability date or contact details provided in the main post."
+    "ambiguity_note": "No availability date or contact details provided in the main post.",
+    "dismiss_reason": "Old publication (2021)"
   },
   {
     "id": "fb_group_753708125836629_1630893304784769",
