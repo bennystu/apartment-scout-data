@@ -990,7 +990,7 @@
     "available_date": null,
     "first_seen": "2026-04-13T13:07:18.120082",
     "last_seen": "2026-04-13T18:27:11.342699",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": 27.6,
     "train_info": "L140 → Bruxelles-Luxembourg (Court-Saint-Étienne, 0.9km)",
@@ -998,7 +998,8 @@
     "data_score": 4,
     "match_score": 6.6,
     "confidence": "high",
-    "ambiguity_note": null
+    "ambiguity_note": null,
+    "dismiss_reason": "No direct train line to Brussels"
   },
   {
     "id": "fb_group_274433432584391_listings_26753919767542397",
