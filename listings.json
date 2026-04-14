@@ -2354,7 +2354,7 @@
     "available_date": null,
     "first_seen": "2026-04-13T18:27:11.362508",
     "last_seen": "2026-04-13T18:27:11.362508",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": null,
     "train_info": null,
@@ -2362,7 +2362,8 @@
     "data_score": 0.5,
     "match_score": 2.2,
     "confidence": "high",
-    "ambiguity_note": null
+    "ambiguity_note": null,
+    "dismiss_reason": "Not a listing for an apartment"
   },
   {
     "id": "fb_group_SeLogerDansLeBW_listings_464624674813028",
