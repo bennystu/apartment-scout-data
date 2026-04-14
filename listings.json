@@ -2617,7 +2617,7 @@
     "available_date": null,
     "first_seen": "2026-04-13T18:27:11.320094",
     "last_seen": "2026-04-13T18:27:11.320094",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": null,
     "train_info": null,
@@ -2625,7 +2625,8 @@
     "data_score": 0,
     "match_score": 2.0,
     "confidence": "high",
-    "ambiguity_note": null
+    "ambiguity_note": null,
+    "dismiss_reason": "duplicate listing"
   },
   {
     "id": "fb_group_444429119063136_1210433399129367",
