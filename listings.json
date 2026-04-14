@@ -2239,7 +2239,7 @@
     "available_date": "2026-05-01",
     "first_seen": "2026-04-13T13:07:18.120390",
     "last_seen": "2026-04-13T18:27:11.343304",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": null,
     "train_info": null,
@@ -2247,7 +2247,8 @@
     "data_score": 0.75,
     "match_score": 2.7,
     "confidence": "low",
-    "ambiguity_note": "Incomplete information: no price, town, m2, bedrooms, furnished, or contact details provided."
+    "ambiguity_note": "Incomplete information: no price, town, m2, bedrooms, furnished, or contact details provided.",
+    "dismiss_reason": "Duplicate listing"
   },
   {
     "id": "fb_group_bwalouer_listings_3309217269257221",
