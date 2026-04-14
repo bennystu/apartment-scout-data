@@ -624,7 +624,7 @@
     "available_date": null,
     "first_seen": "2026-04-13T13:07:18.128123",
     "last_seen": "2026-04-13T18:27:11.363187",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": 17.8,
     "train_info": null,
@@ -632,7 +632,8 @@
     "data_score": 4.5,
     "match_score": 7.6,
     "confidence": "high",
-    "ambiguity_note": null
+    "ambiguity_note": null,
+    "dismiss_reason": "Annonce trop ancienne (2018)"
   },
   {
     "id": "fb_group_755415781242784_listings_26162807213410291",
