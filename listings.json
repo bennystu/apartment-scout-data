@@ -707,7 +707,7 @@
     "available_date": "2026-06-01",
     "first_seen": "2026-04-13T13:07:18.106579",
     "last_seen": "2026-04-13T18:27:11.320547",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": 20.2,
     "train_info": "L161 → Bruxelles-Luxembourg (Wavre, 2.2km)",
@@ -715,7 +715,8 @@
     "data_score": 4.25,
     "match_score": 7.5,
     "confidence": "high",
-    "ambiguity_note": null
+    "ambiguity_note": null,
+    "dismiss_reason": "No direct train line to Brussels"
   },
   {
     "id": "fb_group_1142157332585236_listings_3143785725755710",
