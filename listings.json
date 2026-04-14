@@ -2082,7 +2082,7 @@
     "available_date": "2026-05-01",
     "first_seen": "2026-04-13T13:07:18.125924",
     "last_seen": "2026-04-13T18:27:11.356403",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": null,
     "train_info": null,
@@ -2090,7 +2090,8 @@
     "data_score": 0.75,
     "match_score": 3.0,
     "confidence": "low",
-    "ambiguity_note": "Incomplete information: no price, town, m2, bedrooms, furnished, or contact details provided."
+    "ambiguity_note": "Incomplete information: no price, town, m2, bedrooms, furnished, or contact details provided.",
+    "dismiss_reason": "Duplicate listing"
   },
   {
     "id": "fb_group_1508624389410750_4291298261143335",
