@@ -1873,7 +1873,7 @@
     "available_date": null,
     "first_seen": "2026-04-13T13:07:18.117699",
     "last_seen": "2026-04-13T18:27:11.340665",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": 31.9,
     "train_info": null,
@@ -1881,7 +1881,8 @@
     "data_score": 4.75,
     "match_score": 3.3,
     "confidence": "high",
-    "ambiguity_note": null
+    "ambiguity_note": null,
+    "dismiss_reason": "Not adapted"
   },
   {
     "id": "fb_group_1508624389410750_listings_4314173172189177",
