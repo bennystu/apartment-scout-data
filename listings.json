@@ -2578,7 +2578,7 @@
     "available_date": null,
     "first_seen": "2026-04-13T18:27:11.323716",
     "last_seen": "2026-04-13T18:27:11.323716",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": null,
     "train_info": null,
@@ -2586,7 +2586,8 @@
     "data_score": 0.5,
     "match_score": 2.0,
     "confidence": "medium",
-    "ambiguity_note": "general advertisement with no specific property details"
+    "ambiguity_note": "general advertisement with no specific property details",
+    "dismiss_reason": "not a proper listing"
   },
   {
     "id": "fb_group_1508624389410750_4284452271827934",
