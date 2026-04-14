@@ -2273,7 +2273,7 @@
     "available_date": null,
     "first_seen": "2026-04-13T13:07:18.126508",
     "last_seen": "2026-04-13T18:27:11.357600",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": 28.7,
     "train_info": null,
@@ -2281,7 +2281,8 @@
     "data_score": 2,
     "match_score": 2.5,
     "confidence": "low",
-    "ambiguity_note": "No explicit price, area, availability, or contact details provided in the post."
+    "ambiguity_note": "No explicit price, area, availability, or contact details provided in the post.",
+    "dismiss_reason": "Duplicate listing"
   },
   {
     "id": "fb_group_1142157332585236_listings_3169933319807617",
