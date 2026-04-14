@@ -1907,7 +1907,7 @@
     "available_date": "2026-05-15",
     "first_seen": "2026-04-13T13:07:18.110372",
     "last_seen": "2026-04-13T18:27:11.326782",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": 19.2,
     "train_info": null,
@@ -1915,7 +1915,8 @@
     "data_score": 1.75,
     "match_score": 3.3,
     "confidence": "medium",
-    "ambiguity_note": "No price, m2, or bedrooms specified in the main post."
+    "ambiguity_note": "No price, m2, or bedrooms specified in the main post.",
+    "dismiss_reason": "Too far from train station"
   },
   {
     "id": "fb_group_bwalouer_listings_3303199583192323",
