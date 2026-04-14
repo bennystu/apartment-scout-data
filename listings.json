@@ -1270,7 +1270,7 @@
     "available_date": "2026-05-04",
     "first_seen": "2026-04-13T13:07:18.105990",
     "last_seen": "2026-04-13T18:27:11.318654",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": 29.2,
     "train_info": null,
@@ -1278,7 +1278,8 @@
     "data_score": 4.75,
     "match_score": 5.7,
     "confidence": "high",
-    "ambiguity_note": null
+    "ambiguity_note": null,
+    "dismiss_reason": "No direct train line to Brussels"
   },
   {
     "id": "fb_group_bwalouer_listings_3293169564195325",
