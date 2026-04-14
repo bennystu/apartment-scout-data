@@ -2499,7 +2499,7 @@
     "available_date": null,
     "first_seen": "2026-04-13T18:27:11.338703",
     "last_seen": "2026-04-13T18:27:11.338703",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": null,
     "train_info": null,
@@ -2507,7 +2507,8 @@
     "data_score": 0.5,
     "match_score": 2.0,
     "confidence": "medium",
-    "ambiguity_note": "no property details, may be spam"
+    "ambiguity_note": "no property details, may be spam",
+    "dismiss_reason": "house for sale not for rent"
   },
   {
     "id": "fb_group_274433432584391_26914028958198143",
