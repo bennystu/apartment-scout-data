@@ -1754,7 +1754,7 @@
     "available_date": null,
     "first_seen": "2026-04-13T13:07:18.130089",
     "last_seen": "2026-04-13T18:27:11.365457",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": 27.6,
     "train_info": "L140 → Bruxelles-Luxembourg (Court-Saint-Étienne, 0.9km)",
@@ -1762,7 +1762,8 @@
     "data_score": 2.75,
     "match_score": 3.5,
     "confidence": "medium",
-    "ambiguity_note": "Missing key details like price, availability date, and contact information."
+    "ambiguity_note": "Missing key details like price, availability date, and contact information.",
+    "dismiss_reason": "Old post (2024)"
   },
   {
     "id": "fb_group_1508624389410750_4286339671639194",
