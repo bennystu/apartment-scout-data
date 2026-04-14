@@ -74,6 +74,12 @@ if _USE_JSON:
                 break
         _commit_listings(_ALL_LISTINGS)  # persists to GitHub, triggers redeploy
 
+    def save_feedback(listing_id, reason):
+        for l in _ALL_LISTINGS:
+            if l["id"] == listing_id:
+                l["dismiss_reason"] = reason
+                break
+
     def init_db():
         pass
 
