@@ -2038,7 +2038,7 @@
     "available_date": "2026-05-01",
     "first_seen": "2026-04-13T13:07:18.127433",
     "last_seen": "2026-04-13T18:27:11.360927",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": null,
     "train_info": null,
@@ -2046,7 +2046,8 @@
     "data_score": 0.75,
     "match_score": 3.0,
     "confidence": "low",
-    "ambiguity_note": "Insufficient information provided in the post."
+    "ambiguity_note": "Insufficient information provided in the post.",
+    "dismiss_reason": "Duplicate listing"
   },
   {
     "id": "fb_group_bwalouer_3309201659258782",
