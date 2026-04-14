@@ -2192,7 +2192,7 @@
     "available_date": null,
     "first_seen": "2026-04-13T13:07:18.107286",
     "last_seen": "2026-04-13T18:27:11.321276",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": 15.0,
     "train_info": "L161 → Bruxelles-Luxembourg (La Hulpe, 0.6km)",
@@ -2200,7 +2200,8 @@
     "data_score": 3.5,
     "match_score": 2.9,
     "confidence": "low",
-    "ambiguity_note": "Incomplete information: no availability date, contact details, or contract length provided."
+    "ambiguity_note": "Incomplete information: no availability date, contact details, or contract length provided.",
+    "dismiss_reason": "Scam?"
   },
   {
     "id": "fb_group_755415781242784_listings_26536197742737901",
