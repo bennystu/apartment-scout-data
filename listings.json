@@ -1951,7 +1951,7 @@
     "available_date": null,
     "first_seen": "2026-04-13T13:07:18.126857",
     "last_seen": "2026-04-13T18:27:11.357937",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": null,
     "train_info": null,
@@ -1959,7 +1959,8 @@
     "data_score": 0.75,
     "match_score": 3.1,
     "confidence": "low",
-    "ambiguity_note": "Incomplete information: missing town, price, m2, bedrooms, available date, and contact details."
+    "ambiguity_note": "Incomplete information: missing town, price, m2, bedrooms, available date, and contact details.",
+    "dismiss_reason": "Too expensive"
   },
   {
     "id": "fb_group_274433432584391_26748943461373361",
