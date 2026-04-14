@@ -329,7 +329,7 @@
     "available_date": "2026-04-01",
     "first_seen": "2026-04-13T13:07:18.127159",
     "last_seen": "2026-04-13T18:27:11.358195",
-    "status": "new",
+    "status": "contacted",
     "listing_score": null,
     "distance_bxl_km": 19.2,
     "train_info": null,
