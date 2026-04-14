@@ -1381,7 +1381,7 @@
     "available_date": "2026-06-01",
     "first_seen": "2026-04-13T18:27:11.330275",
     "last_seen": "2026-04-13T18:27:11.330275",
-    "status": "new",
+    "status": "dismissed",
     "listing_score": null,
     "distance_bxl_km": 28.7,
     "train_info": null,
@@ -1389,7 +1389,8 @@
     "data_score": 2.75,
     "match_score": 5.2,
     "confidence": "high",
-    "ambiguity_note": null
+    "ambiguity_note": null,
+    "dismiss_reason": "No direct train line to Brussels"
   },
   {
     "id": "fb_group_444429119063136_listings_1815567931949241",
