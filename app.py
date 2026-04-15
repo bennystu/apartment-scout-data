@@ -139,7 +139,11 @@ with st.sidebar:
     avail_unknown = st.checkbox("No start date listed", value=True)
     # July+ always hidden — too far out
 
-    hide_dismissed = st.checkbox("Hide dismissed", value=True)
+    status_filter = st.selectbox(
+        "Status",
+        ["All", "To review", "Shortlisted", "Contacted"],
+        help="All hides dismissed listings. Use individual status views to focus.",
+    )
 
     st.divider()
     if st.button("🔄 Refresh listings"):
@@ -154,14 +158,20 @@ if furnished_filter == "Furnished only":
 elif furnished_filter == "Unfurnished only":
     furnished_arg = False
 
-exclude_status = ["dismissed"] if hide_dismissed else []
-
 listings = get_listings(
     max_price=price_range[1],
     min_vision_score=min_score,
     furnished=furnished_arg,
-    exclude_status=exclude_status,
+    exclude_status=["dismissed"],
 )
+
+if status_filter == "To review":
+    listings = [l for l in listings if l["status"] == "new"]
+elif status_filter == "Shortlisted":
+    listings = [l for l in listings if l["status"] == "favorite"]
+elif status_filter == "Contacted":
+    listings = [l for l in listings if l["status"] == "contacted"]
+# "All" — dismissed already excluded above
 
 # Price minimum
 listings = [l for l in listings if not l.get("price") or l["price"] >= price_range[0]]
@@ -253,7 +263,7 @@ PAGE_SIZE = 10
 total_pages = max(1, (total + PAGE_SIZE - 1) // PAGE_SIZE)
 
 # Reset to page 0 whenever filters change
-filter_key = f"{price_range}_{min_score}_{furnished_filter}_{hide_dismissed}_{avail_april}_{avail_may}_{avail_june}_{avail_unknown}_{''.join(str(v) for v in town_filters.values())}_{other_towns}_{bed_any}_{bed_studio}_{bed_1}_{bed_2}_{train_l161}_{train_l124}_{train_none}_{max_distance_km}"
+filter_key = f"{price_range}_{min_score}_{furnished_filter}_{status_filter}_{avail_april}_{avail_may}_{avail_june}_{avail_unknown}_{''.join(str(v) for v in town_filters.values())}_{other_towns}_{bed_any}_{bed_studio}_{bed_1}_{bed_2}_{train_l161}_{train_l124}_{train_none}_{max_distance_km}"
 if st.session_state.get("filter_key") != filter_key:
     st.session_state.page = 0
     st.session_state.filter_key = filter_key
@@ -282,9 +292,9 @@ for listing in page_listings:
 
     # Card header
     badge = "🆕 " if is_new else ("⭐ " if is_fav else "")
-    price_str = f"€{listing['price']}/mo" if listing["price"] else "Price unknown"
-    town_str = listing.get("town") or "Location unknown"
-    dist_str = f" · {listing['distance_km']}km AGC" if listing.get("distance_km") else ""
+    price_str = f"€{listing['price']}/mo" if listing["price"] else "⚠ no price"
+    town_str = listing.get("town") or "location unknown"
+    dist_str = f" · {listing['distance_km']}km" if listing.get("distance_km") else " · dist?"
     dist_bxl_str = f" · {listing['distance_bxl_km']}km BXL" if listing.get("distance_bxl_km") else ""
     train_str = f" · 🚆 {listing['train_info']}" if listing.get("train_info") else ""
     furnished_str = ""
@@ -295,10 +305,7 @@ for listing in page_listings:
 
     m2_str = f" · {listing['m2']}m²" if listing.get("m2") else ""
     beds_str = f" · {listing['bedrooms']}bed" if listing.get("bedrooms") else (" · studio" if listing.get("bedrooms") == 0 else "")
-    match_str = f" · match {listing['match_score']:.1f}/10" if listing.get("match_score") is not None else ""
-    data_str = f" · data {listing['data_score']}/7" if listing.get("data_score") is not None else ""
-    score_str = f" · 📷 {listing['vision_score']:.1f}/5" if listing.get("vision_score") else ""
-    score_str = match_str + data_str + score_str
+    score_str = f" · {listing['match_score']:.1f}/10" if listing.get("match_score") is not None else ""
     avail_str = f" · 📅 {listing['available_from']}" if listing.get("available_from") else ""
 
     with st.expander(
@@ -308,16 +315,11 @@ for listing in page_listings:
         # Photos grid — all photos, 3 per row
         photos = listing.get("photos") or []
         if photos:
-            cols_per_row = 3
-            for row_start in range(0, len(photos), cols_per_row):
-                row_photos = photos[row_start:row_start + cols_per_row]
-                photo_cols = st.columns(len(row_photos))
-                for i, url in enumerate(row_photos):
-                    with photo_cols[i]:
-                        try:
-                            st.image(url, use_container_width=True)
-                        except Exception:
-                            st.caption("(photo unavailable)")
+            for url in photos:
+                try:
+                    st.image(url, use_container_width=True)
+                except Exception:
+                    st.caption("(photo unavailable)")
 
         # Details grid
         detail_col, action_col = st.columns([3, 1])
