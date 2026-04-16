@@ -260,9 +260,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_1508624389410750_4313130202293474/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_1508624389410750_4313130202293474/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. The images show personal travel photos (Budapest castle, Split Croatia, HEC Liège campus building), a Twitter post about geopolitical conflict, and a cursor icon. Without any photographs of rooms, kitchen, bathroom, flooring, ceiling height, natural light, or overall condition, it is impossible to assess the rental's habitability or suitability.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Orbais et je suis très intéressée par votre logement. Pourriez-vous me préciser si le logement est meublé ou non et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-06-01",
     "first_seen": "2026-04-16T12:44:47.397509",
@@ -901,9 +907,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_1634150894459010/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_1634150894459010/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "Only exterior and social media photos provided; no interior living spaces, kitchen, bathroom, or bedroom photos visible. First image shows castle exterior in Budapest, Hungary—not the rental property. Remaining images are social media posts and event flyers unrelated to the listing. Cannot assess natural light, room dimensions, ceiling height, floor condition, or any interior fixtures.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Braine L’alleud et je suis très intéressée par votre logement. Pourriez-vous me préciser la superficie, si le logement est meublé ou non et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-05-01",
     "first_seen": "2026-04-16T05:10:25.166713",
@@ -948,9 +960,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_listings_1634150894459010/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_listings_1634150894459010/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior rental property photos provided. The collection consists entirely of non-listing images: a tourist photo of Fisherman's Bastion in Budapest, a social media marketing screenshot unrelated to property, an inspirational quote card, a cityscape exterior shot, and a political news tweet. Cannot assess actual rental condition, natural light, room dimensions, finishes, or habitability.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Braine L’alleud et je suis très intéressée par votre logement. Pourriez-vous me préciser la superficie, si le logement est meublé ou non et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-05-01",
     "first_seen": "2026-04-16T12:44:47.400286",
@@ -1079,9 +1097,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_listings_1634099911130775/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_listings_1634099911130775/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. The images consist of a travel photo at Fisherman's Bastion (Budapest), a social media marketing post unrelated to this listing, an Erasmus Student Network photo from Split Croatia, and a political commentary tweet. Without any photographs of the interior rooms, natural light, kitchen, bathroom, or living spaces of the property in Walloon Brabant, it is impossible to assess rental condition, room sizes, ceiling heights, or finishes.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Westland et je suis très intéressée par votre logement. Pourriez-vous me préciser si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-05-01",
     "first_seen": "2026-04-16T12:44:47.400575",
@@ -1126,9 +1150,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_1634099911130775/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_1634099911130775/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "Images do not constitute a coherent interior rental assessment. Only one interior photo provided (a residential room with warm artificial lighting, standard ceiling height, and basic furnishings). The remaining images are social media screenshots, exterior castle/building photos, event promotional flyers, and couple selfies — none of which document the actual rental property's condition, natural light, room sizes, finishes, or livability. No kitchen, bathroom, bedroom layout, or systematic property survey is visible.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Westland et je suis très intéressée par votre logement. Pourriez-vous me préciser si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-05-01",
     "first_seen": "2026-04-16T05:10:25.167851",
@@ -1279,6 +1309,50 @@
     "match_score": 6.2,
     "confidence": "high",
     "ambiguity_note": null,
+    "classify_model": "qwen3:8b"
+  },
+  {
+    "id": "fb_group_755415781242784_listings_26579944631696545",
+    "source": "facebook_group_755415781242784_listings",
+    "source_url": "https://www.facebook.com/groups/755415781242784/posts/26579944631696545/",
+    "post_text": "Appartement entièrement rénové à louer à Châtelet, avec cuisine équipée, deux chambres et garage, loyer 950€.\n\n[Comments]\n[User] RadiantSeahorse1194: RadiantSeahorse1194 C est pas wow pour le prix. Des chambres sous pentes. Et le Peb ?",
+    "price": 950,
+    "town": "Châtelet",
+    "lat": 50.4059298,
+    "lon": 4.5192695,
+    "distance_km": 29.3,
+    "m2": null,
+    "bedrooms": 2,
+    "furnished": null,
+    "available_from": null,
+    "contact": null,
+    "photos": [
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_listings_26579944631696545/0.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_listings_26579944631696545/1.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_listings_26579944631696545/2.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_listings_26579944631696545/3.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_listings_26579944631696545/4.jpg"
+    ],
+    "vision_score": 3.0,
+    "vision_notes": "Modern renovation with clean finishes and adequate natural light from skylights and windows. Kitchen features contemporary handleless cabinetry and integrated appliances; hallway and bedrooms are well-lit by skylights typical of attic conversions. However, sloped ceilings significantly limit usable space in bedrooms and upper-floor rooms—the attic bedroom shows restrictive headroom. Rooms feel cramped relative to furniture placement, and current clutter (storage boxes, miscellaneous items) obscures true storage capacity. Grey tile flooring throughout is practical but institutional. Overall functional but noticeably space-constrained.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [],
+      "bedrooms_visible": 3
+    },
+    "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Châtelet et je suis très intéressée par votre logement. Pourriez-vous me préciser la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
+    "available_date": null,
+    "first_seen": "2026-04-16T12:44:47.404575",
+    "last_seen": "2026-04-16T12:44:47.404575",
+    "status": "new",
+    "listing_score": null,
+    "distance_bxl_km": 49.6,
+    "train_info": null,
+    "contract_length": null,
+    "data_score": 3.5,
+    "match_score": 5.8,
+    "confidence": "low",
+    "ambiguity_note": "No availability date, contact, or contract length provided.",
     "classify_model": "qwen3:8b"
   },
   {
@@ -1486,46 +1560,6 @@
     "classify_model": "qwen3:8b"
   },
   {
-    "id": "fb_group_755415781242784_listings_26579944631696545",
-    "source": "facebook_group_755415781242784_listings",
-    "source_url": "https://www.facebook.com/groups/755415781242784/posts/26579944631696545/",
-    "post_text": "Appartement entièrement rénové à louer à Châtelet, avec cuisine équipée, deux chambres et garage, loyer 950€.\n\n[Comments]\n[User] RadiantSeahorse1194: RadiantSeahorse1194 C est pas wow pour le prix. Des chambres sous pentes. Et le Peb ?",
-    "price": 950,
-    "town": "Châtelet",
-    "lat": 50.4059298,
-    "lon": 4.5192695,
-    "distance_km": 29.3,
-    "m2": null,
-    "bedrooms": 2,
-    "furnished": null,
-    "available_from": null,
-    "contact": null,
-    "photos": [
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_listings_26579944631696545/0.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_listings_26579944631696545/1.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_listings_26579944631696545/2.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_listings_26579944631696545/3.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_listings_26579944631696545/4.jpg"
-    ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
-    "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Châtelet et je suis très intéressée par votre logement. Pourriez-vous me préciser la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
-    "available_date": null,
-    "first_seen": "2026-04-16T12:44:47.404575",
-    "last_seen": "2026-04-16T12:44:47.404575",
-    "status": "new",
-    "listing_score": null,
-    "distance_bxl_km": 49.6,
-    "train_info": null,
-    "contract_length": null,
-    "data_score": 3.5,
-    "match_score": 5.5,
-    "confidence": "low",
-    "ambiguity_note": "No availability date, contact, or contract length provided.",
-    "classify_model": "qwen3:8b"
-  },
-  {
     "id": "fb_group_1508624389410750_4319801631626331",
     "source": "facebook_group_1508624389410750",
     "source_url": "https://www.facebook.com/groups/1508624389410750/posts/4319801631626331/",
@@ -1554,9 +1588,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_1508624389410750_4319801631626331/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_1508624389410750_4319801631626331/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. Images show: a man posing at a castle exterior (tourist photo), a social media post about Middle East conflict, a Portuguese-language promotional flyer for a confectionery, a woman at a waterfront, and a selfie of a couple indoors. None document the rental unit's condition, lighting, room sizes, finishes, or layout. Cannot assess habitability.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Braine l'Alleud et je suis très intéressée par votre logement. Pourriez-vous me préciser la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-16T12:44:47.395130",
@@ -1681,9 +1721,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_1508624389410750_4314984915441336/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_1508624389410750_4314984915441336/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. The images show: a tourist at Fisherman's Bastion (Budapest, not Belgium), ESN students in Split Croatia, an ESN logo, a political commentary tweet, and an architectural interior (likely a public building). Zero evidence of bedroom condition, kitchen spec, bathroom state, natural light, ceiling height, or floor materials in the target property.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Quartier de l'Hocaille et je suis très intéressée par votre logement. Pourriez-vous me préciser la superficie, le nombre de chambres, si le logement est meublé ou non et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-06-01",
     "first_seen": "2026-04-16T12:44:47.396763",
@@ -1762,9 +1808,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_bwalouer_listings_3315361695309445/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_bwalouer_listings_3315361695309445/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "Only exterior and social media content provided—no interior photos of the actual rental space. Images show a castle exterior (Fisherman's Bastion, Budapest), unrelated Twitter discourse, personal Instagram selfies, and a salsa dance event flyer. Zero information about living conditions, room sizes, lighting, finishes, or layout.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à EU Quarter et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, si le logement est meublé ou non et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-05-01",
     "first_seen": "2026-04-16T05:10:25.171973",
@@ -1894,9 +1946,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_1508624389410750_4315063655433462/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_1508624389410750_4315063655433462/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. Images show: a tourist at Fisherman's Bastion (Budapest, not Belgium), ESN students in Split Croatia, an ESN logo, a political tweet about Israel-Lebanon, and a modern public building interior (likely a university or civic centre, not a residential rental). Cannot assess living conditions, natural light, room sizes, ceiling height, kitchen, or bathroom without genuine interior photos of the rental unit.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Beauvechain et je suis très intéressée par votre logement. Pourriez-vous me préciser la superficie, le nombre de chambres et la date de disponibilité ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-16T12:44:47.396278",
@@ -1941,9 +1999,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_listings_4147931108851155/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_listings_4147931108851155/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No genuine interior photos of the rental property provided. Images show: a man posing at Fisherman's Bastion (Budapest, not Belgium), social media posts about religious topics unrelated to property, two personal selfies of young people in a residential setting (likely current occupant's personal photos, not professional listing images), and a flyer for a dance event in Brussels. No kitchen, bathroom, bedroom, or living space condition can be assessed. Without actual interior documentation, habitability and room specifications cannot be evaluated.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à 1000 et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-05-01",
     "first_seen": "2026-04-16T05:10:25.170770",
@@ -1988,9 +2052,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_listings_4148386102138989/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_listings_4148386102138989/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No genuine interior property photos provided. Images include: a street scene at an iconic Budapest landmark (Fisherman's Bastion), social media screenshots with political commentary unrelated to the property, two personal social media posts (couple selfie, dance event flyer), and a family photo. Zero images showing any rooms, finishes, natural light, or rental condition. Cannot assess interior living conditions.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Ixelles et je suis très intéressée par votre logement. Pourriez-vous me préciser si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-05-01",
     "first_seen": "2026-04-16T05:10:25.170191",
@@ -2082,9 +2152,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_bwalouer_3314283155417299/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_bwalouer_3314283155417299/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. Images show social media posts, exterior castle/architecture shots, and personal photos unrelated to the listing. Cannot assess natural light, room dimensions, ceiling height, flooring, kitchen spec, or bathroom condition. One image appears to be a promotional flyer for a dance event in Brussels, and another shows a street scene—neither document the rental interior.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Thorembais-Saint-Trond et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-16T05:10:25.171377",
@@ -2172,9 +2248,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_bwalouer_listings_3314283155417299/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_bwalouer_listings_3314283155417299/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. Image set consists entirely of exterior tourism photos (Fisherman's Bastion in Budapest), concert attendance documentation, lifestyle/travel imagery, and unrelated marketing/business content. Cannot assess natural light, room sizes, ceiling height, floor condition, kitchen, or bathroom. Impossible to evaluate rental suitability.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Thorembais-Saint-Trond et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-16T12:44:47.407085",
@@ -2260,9 +2342,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_1633742134499886/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_1633742134499886/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. The images consist of: a tourist photo of the person at Fisherman's Bastion in Budapest (exterior only, irrelevant to property assessment), a social media post about Middle East conflict (not a property photo), a blank/loading screen, a partial outdoor photo of unknown location, and a Portuguese-language promotional flyer for a confectionery Google review (marketing material, not property documentation). Zero interior images of living spaces, bedrooms, kitchen, bathroom, or any rentable rooms.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-16T12:44:47.398430",
@@ -2307,9 +2395,16 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_listings_1634102137797219/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_listings_1634102137797219/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. Images show exterior castle/landmark shots, social media posts unrelated to the listing, and personal photos of individuals. Cannot assess natural light, room sizes, ceiling height, flooring, kitchen, or bathroom condition. Without genuine interior photos, this listing cannot be properly evaluated.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "No interior photos provided — only exterior landmarks and unrelated social media content",
+        "Unable to verify any actual rental conditions or property features"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Evere et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-16T05:10:25.168400",
@@ -2469,9 +2564,17 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_1508624389410750_4314173172189177/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_1508624389410750_4314173172189177/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. Images show: a tourist at Fisherman's Bastion (Budapest, not Belgium), an ESN student group in Split Croatia, an ESN organization logo, a political social media post about Middle East conflict, and a modern public building interior (likely a university or civic space, not a residential rental). Zero visual evidence of the property's condition, room sizes, natural light, finishes, or layout.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided",
+        "no residential property images included",
+        "listing authenticity highly questionable"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Lasne et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, le nombre de chambres, si le logement est meublé ou non et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-05-15",
     "first_seen": "2026-04-16T12:44:47.397088",
@@ -3079,6 +3182,50 @@
     "classify_model": "qwen3:8b"
   },
   {
+    "id": "fb_group_immoenwal_4147392542238345",
+    "source": "facebook_group_immoenwal",
+    "source_url": "https://www.facebook.com/groups/immoenwal/posts/4147392542238345/",
+    "post_text": "OPPORTUNITÉ RARE : Vivez et travaillez au cœur de la nature chez IIMMO Beguin",
+    "price": null,
+    "town": "Beguin",
+    "lat": 50.7126428,
+    "lon": 3.8251841,
+    "distance_km": 52.2,
+    "m2": null,
+    "bedrooms": null,
+    "furnished": null,
+    "available_from": null,
+    "contact": null,
+    "photos": [
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_4147392542238345/0.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_4147392542238345/1.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_4147392542238345/2.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_4147392542238345/3.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_4147392542238345/4.jpg"
+    ],
+    "vision_score": 3.0,
+    "vision_notes": "Property comprises a rural cottage with mixed interior conditions. Living spaces feature terracotta tile floors (worn in places) and exposed brick ceilings with dark wooden beams, creating low-to-moderate ceiling heights typical of converted rural buildings. Natural light is moderate—south-facing windows visible in living room and dining areas, but many rooms appear dimly lit due to small window proportions. Kitchen is dated with basic cabinetry and appliances. Dining areas are adequately sized but furnished with mismatched antique pieces suggesting current occupancy. One converted barn/event space with bright modern finishes contrasts sharply with main residence. Overall, functionality is present but finish quality is inconsistent and decor is heavily personalized; property appeals primarily to rural/rustic aesthetic seekers rather than those seeking modern comfort.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [],
+      "bedrooms_visible": null
+    },
+    "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Beguin et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
+    "available_date": null,
+    "first_seen": "2026-04-16T12:44:47.403704",
+    "last_seen": "2026-04-16T12:44:47.403704",
+    "status": "new",
+    "listing_score": null,
+    "distance_bxl_km": 40.5,
+    "train_info": null,
+    "contract_length": null,
+    "data_score": 1,
+    "match_score": 2.1,
+    "confidence": "low",
+    "ambiguity_note": "No specific details provided about price, location, size, or availability.",
+    "classify_model": "qwen3:8b"
+  },
+  {
     "id": "fb_group_444429119063136_listings_1209927972513243",
     "source": "facebook_group_444429119063136_listings",
     "source_url": "https://www.facebook.com/groups/444429119063136/posts/1209927972513243/",
@@ -3119,53 +3266,6 @@
     "match_score": 2.1,
     "confidence": "low",
     "ambiguity_note": "No specific details provided about price, town, area, bedrooms, or availability date.",
-    "classify_model": "qwen3:8b"
-  },
-  {
-    "id": "fb_group_755415781242784_26582860201404988",
-    "source": "facebook_group_755415781242784",
-    "source_url": "https://www.facebook.com/groups/755415781242784/posts/26582860201404988/",
-    "post_text": "Bonjour à tous, \nJe poste ce message pour mon frère qui recherche un appartement disponible immédiatement ou très rapidement. Il est en attente de signer son contrat mais peut apporter un an de loyer en garantie si besoin. Il recherche au alentour de Wavre/LLN/Genappe, avec un bail d'un an et budget maximum de 900€ si possible charges comprises mais légèrement flexible si besoin. Merci de me contacter si vous avez des opportunités en MP, au 0496/83.01.46 ou email carolinelentini@hotmail.fr.\nMerci beaucoup d'avance!",
-    "price": null,
-    "town": null,
-    "lat": null,
-    "lon": null,
-    "distance_km": null,
-    "m2": null,
-    "bedrooms": null,
-    "furnished": null,
-    "available_from": "immédiatement",
-    "contact": "0496/83.01.46",
-    "photos": [
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/0.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/1.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/2.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/3.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/4.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/5.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/6.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/7.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/8.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/9.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/10.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/11.jpg"
-    ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
-    "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
-    "available_date": null,
-    "first_seen": "2026-04-16T12:44:47.403981",
-    "last_seen": "2026-04-16T12:44:47.403981",
-    "status": "new",
-    "listing_score": null,
-    "distance_bxl_km": null,
-    "train_info": null,
-    "contract_length": "1year",
-    "data_score": 0.5,
-    "match_score": 2.0,
-    "confidence": "medium",
-    "ambiguity_note": "No specific price or location mentioned, relying on poster's message for details.",
     "classify_model": "qwen3:8b"
   },
   {
@@ -3230,9 +3330,15 @@
     "photos": [
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_bwalouer_3315969081915373/0.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "Only one exterior photo provided showing the building facade and entrance (number 131). No interior photos of any rooms, kitchen, bathroom, or living spaces are visible. Cannot assess natural light quality, room sizes, ceiling height, flooring condition, or any functional living areas. This is insufficient documentation for a rental property evaluation.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Court St Etienne et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-16T12:44:47.406021",
@@ -3283,46 +3389,6 @@
     "classify_model": "qwen3:8b"
   },
   {
-    "id": "fb_group_immoenwal_4147392542238345",
-    "source": "facebook_group_immoenwal",
-    "source_url": "https://www.facebook.com/groups/immoenwal/posts/4147392542238345/",
-    "post_text": "OPPORTUNITÉ RARE : Vivez et travaillez au cœur de la nature chez IIMMO Beguin",
-    "price": null,
-    "town": "Beguin",
-    "lat": 50.7126428,
-    "lon": 3.8251841,
-    "distance_km": 52.2,
-    "m2": null,
-    "bedrooms": null,
-    "furnished": null,
-    "available_from": null,
-    "contact": null,
-    "photos": [
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_4147392542238345/0.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_4147392542238345/1.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_4147392542238345/2.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_4147392542238345/3.jpg",
-      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_4147392542238345/4.jpg"
-    ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
-    "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Beguin et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
-    "available_date": null,
-    "first_seen": "2026-04-16T12:44:47.403704",
-    "last_seen": "2026-04-16T12:44:47.403704",
-    "status": "new",
-    "listing_score": null,
-    "distance_bxl_km": 40.5,
-    "train_info": null,
-    "contract_length": null,
-    "data_score": 1,
-    "match_score": 1.8,
-    "confidence": "low",
-    "ambiguity_note": "No specific details provided about price, location, size, or availability.",
-    "classify_model": "qwen3:8b"
-  },
-  {
     "id": "fb_group_immoenwal_4149274415383491",
     "source": "facebook_group_immoenwal",
     "source_url": "https://www.facebook.com/groups/immoenwal/posts/4149274415383491/",
@@ -3367,6 +3433,59 @@
     "match_score": 1.8,
     "confidence": "low",
     "ambiguity_note": "No price, area, bedrooms, availability, or contact details provided.",
+    "classify_model": "qwen3:8b"
+  },
+  {
+    "id": "fb_group_755415781242784_26582860201404988",
+    "source": "facebook_group_755415781242784",
+    "source_url": "https://www.facebook.com/groups/755415781242784/posts/26582860201404988/",
+    "post_text": "Bonjour à tous, \nJe poste ce message pour mon frère qui recherche un appartement disponible immédiatement ou très rapidement. Il est en attente de signer son contrat mais peut apporter un an de loyer en garantie si besoin. Il recherche au alentour de Wavre/LLN/Genappe, avec un bail d'un an et budget maximum de 900€ si possible charges comprises mais légèrement flexible si besoin. Merci de me contacter si vous avez des opportunités en MP, au 0496/83.01.46 ou email carolinelentini@hotmail.fr.\nMerci beaucoup d'avance!",
+    "price": null,
+    "town": null,
+    "lat": null,
+    "lon": null,
+    "distance_km": null,
+    "m2": null,
+    "bedrooms": null,
+    "furnished": null,
+    "available_from": "immédiatement",
+    "contact": "0496/83.01.46",
+    "photos": [
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/0.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/1.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/2.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/3.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/4.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/5.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/6.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/7.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/8.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/9.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/10.jpg",
+      "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_755415781242784_26582860201404988/11.jpg"
+    ],
+    "vision_score": 1.0,
+    "vision_notes": "No interior rental photos provided. Image set consists entirely of exterior tourist photography (Fisherman's Bastion, Budapest), unrelated YouTube screenshots, social media posts about geopolitical conflict, and marketing flyers for social media services. Zero assessment of actual living conditions, room dimensions, lighting, flooring, kitchen, or bathroom possible.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
+    "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
+    "available_date": null,
+    "first_seen": "2026-04-16T12:44:47.403981",
+    "last_seen": "2026-04-16T12:44:47.403981",
+    "status": "new",
+    "listing_score": null,
+    "distance_bxl_km": null,
+    "train_info": null,
+    "contract_length": "1year",
+    "data_score": 0.5,
+    "match_score": 1.7,
+    "confidence": "medium",
+    "ambiguity_note": "No specific price or location mentioned, relying on poster's message for details.",
     "classify_model": "qwen3:8b"
   },
   {
@@ -3729,9 +3848,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_listings_1634925197714913/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_listings_1634925197714913/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior rental photos provided. Image 1 shows an external architectural landmark (Fisherman's Bastion, Budapest). Images 2–4 are marketing/social media content unrelated to the listing. Image 5 is a news headline screenshot. No assessment of interior light, room dimensions, finishes, kitchen, or bathroom is possible.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-16T12:44:47.399958",
@@ -3776,9 +3901,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_1634771687730264/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_1634771687730264/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. The images show: an exterior tourist photo at Fisherman's Bastion (Budapest, not Belgium), social media posts about unrelated topics, and promotional merchandise/album artwork. Without any interior photographs of rooms, kitchen, bathroom, or living spaces, interior condition cannot be assessed.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-16T12:44:47.397971",
@@ -3823,9 +3954,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_1634925197714913/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_1634925197714913/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. Images show social media posts (Tucker Carlson Network content, couple selfies, event flyers for Brussels dance events), exterior castle/tourist photos, and unrelated personal snapshots. Zero documentation of room sizes, ceiling heights, floor conditions, kitchen/bathroom specs, or natural lighting. Cannot assess rental quality.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la localisation exacte, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-16T05:10:25.163551",
@@ -3904,9 +4041,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_listings_4148446195466313/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_listings_4148446195466313/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No genuine interior photos of the rental property provided. Images include: exterior castle/building shots (likely tourism photos), social media posts unrelated to the listing, a couple's selfie in what appears to be a private home, and a French-language event flyer for a dance event in Brussels. Cannot assess natural light, room sizes, ceiling height, floor condition, kitchen age, or bathroom state. No usable rental assessment data available.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Not specified et je suis très intéressée par votre logement. Pourriez-vous me préciser si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-05-01",
     "first_seen": "2026-04-16T05:10:25.168851",
@@ -4032,9 +4175,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_1634143617793071/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_1634143617793071/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. Images show social media posts (Tucker Carlson Network screenshot, couple selfies, event flyer for Dance in Brussels), exterior castle/architecture shots, and personal photographs unrelated to the listing. Cannot assess natural light, room dimensions, ceiling height, flooring, kitchen, or bathroom condition without interior photos of the property itself.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Ixelles et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, si le logement est meublé ou non et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-07-01",
     "first_seen": "2026-04-16T05:10:25.167561",
@@ -4079,9 +4228,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_1634919591048807/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_753708125836629_1634919591048807/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. The images consist of: a tourist photo at what appears to be Fisherman's Bastion in Budapest, social media posts (Tucker Carlson Network screenshot, couple selfies, and a Brazilian confectionery promotion), and a Google Street View exterior. Zero documentation of living spaces, kitchen, bathroom, bedrooms, or any interior condition. Cannot assess natural light, ceiling height, floor materials, room sizes, or fixture quality.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Woluwe-Saint-Lambert et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, si le logement est meublé ou non et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-08-01",
     "first_seen": "2026-04-16T05:10:25.166127",
