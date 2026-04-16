@@ -145,6 +145,10 @@ with st.sidebar:
         help="All hides dismissed listings. Use individual status views to focus.",
     )
 
+    st.subheader("Latest run")
+    new_only = st.checkbox("🆕 Latest batch only", value=False,
+                           help="Show only listings added in the most recent scrape")
+
     st.divider()
     if st.button("🔄 Refresh listings"):
         st.rerun()
@@ -236,6 +240,14 @@ def _avail_matches(listing):
 
 listings = [l for l in listings if _avail_matches(l)]
 
+# Latest batch filter — show only listings added in the most recent scrape
+if new_only:
+    latest_date = max(
+        (l.get("first_seen") or "")[:10] for l in listings if l.get("first_seen")
+    ) if listings else ""
+    if latest_date:
+        listings = [l for l in listings if (l.get("first_seen") or "").startswith(latest_date)]
+
 # Sort by match_score descending (nulls last)
 listings.sort(key=lambda l: l.get("match_score") or 0, reverse=True)
 
@@ -263,7 +275,7 @@ PAGE_SIZE = 10
 total_pages = max(1, (total + PAGE_SIZE - 1) // PAGE_SIZE)
 
 # Reset to page 0 whenever filters change
-filter_key = f"{price_range}_{min_score}_{furnished_filter}_{status_filter}_{avail_april}_{avail_may}_{avail_june}_{avail_unknown}_{''.join(str(v) for v in town_filters.values())}_{other_towns}_{bed_any}_{bed_studio}_{bed_1}_{bed_2}_{train_l161}_{train_l124}_{train_none}_{max_distance_km}"
+filter_key = f"{price_range}_{min_score}_{furnished_filter}_{status_filter}_{avail_april}_{avail_may}_{avail_june}_{avail_unknown}_{''.join(str(v) for v in town_filters.values())}_{other_towns}_{bed_any}_{bed_studio}_{bed_1}_{bed_2}_{train_l161}_{train_l124}_{train_none}_{max_distance_km}_{new_only}"
 if st.session_state.get("filter_key") != filter_key:
     st.session_state.page = 0
     st.session_state.filter_key = filter_key
