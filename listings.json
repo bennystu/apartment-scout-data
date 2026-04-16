@@ -2105,9 +2105,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immobw_3450832881736881/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immobw_3450832881736881/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior rental property photos provided. Image 1 shows exterior architecture (Fisherman's Bastion, Budapest). Images 2–5 contain marketing flyers, fitness content, and social media promotion material unrelated to the rental listing. Without interior photos showing room sizes, natural light, finishes, kitchen/bathroom condition, or ceiling heights, assessment of actual living conditions is impossible.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Woluwe-Saint-Lambert et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-16T12:44:47.401577",
@@ -2517,9 +2523,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immobw_3452940678192768/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immobw_3452940678192768/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "Only exterior and marketing material provided — no interior photos of the rental property itself. The first image shows a tourist at Fisherman's Bastion in Budapest (not Belgium), and the remaining images are news articles, social media marketing flyers, and campaign materials unrelated to the property listing. Cannot assess interior lighting, room sizes, ceiling heights, flooring, kitchen spec, or bathroom condition.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Saint-Gilles et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, le nombre de chambres, si le logement est meublé ou non et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-05-01",
     "first_seen": "2026-04-16T12:44:47.401287",
@@ -3417,9 +3429,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_4149274415383491/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immoenwal_4149274415383491/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. The images include a tourist photo at Fisherman's Bastion (Budapest, not Belgium), social media marketing content unrelated to a rental listing, a news headline screenshot, and a political commentary post. Without any photographs of rooms, kitchen, bathroom, or living spaces within the Walloon Brabant property itself, interior condition cannot be assessed.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "no interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à Amougies et je suis très intéressée par votre logement. Pourriez-vous me préciser le loyer mensuel, la superficie, le nombre de chambres, si le logement est meublé ou non, la date de disponibilité et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": null,
     "first_seen": "2026-04-16T12:44:47.403418",
@@ -4128,9 +4146,15 @@
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immobw_3449848055168697/10.jpg",
       "https://raw.githubusercontent.com/bennystu/apartment-scout-data/main/photos/fb_group_immobw_3449848055168697/11.jpg"
     ],
-    "vision_score": null,
-    "vision_notes": null,
-    "vision_inferred": null,
+    "vision_score": 2.0,
+    "vision_notes": "No interior photos of the actual rental property provided. Image 1 shows an exterior tourist photo of Fisherman's Bastion in Budapest, Hungary — not relevant to a Walloon Brabant rental assessment. Images 2–5 are marketing flyers, fitness content, and social media promotional material unrelated to the listing. Without any photos of rooms, kitchen, bathroom, natural light quality, ceiling heights, or floor conditions, the property cannot be evaluated.",
+    "vision_inferred": {
+      "furnished": null,
+      "red_flags": [
+        "No interior photos provided"
+      ],
+      "bedrooms_visible": null
+    },
     "inquiry_message": "Bonjour,\n\nJ'ai vu votre annonce à BRAINE-L’ALLEUD et je suis très intéressée par votre logement. Pourriez-vous me préciser si le logement est meublé ou non et si la domiciliation est autorisée ?\n\nMerci d'avance et bonne journée !",
     "available_date": "2026-07-01",
     "first_seen": "2026-04-16T12:44:47.403019",
