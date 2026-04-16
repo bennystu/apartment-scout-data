@@ -222,9 +222,15 @@ def _train_matches(listing):
 listings = [l for l in listings if _train_matches(l)]
 
 # Availability filter
+_LATE_MONTHS = ("juil", "août", "aout", "jul", "aug", "sept", "octo", "nove", "déce", "dece")
+
 def _avail_matches(listing):
     d = listing.get("available_date")
+    # No extracted date — check free-text available_from for late-month signals
     if not d:
+        avail_from = (listing.get("available_from") or "").lower()
+        if any(m in avail_from for m in _LATE_MONTHS):
+            return False  # clearly July+ — hide even without a parsed date
         return avail_unknown
     if d < "2026-04-01":
         return avail_unknown  # past date = available now/immediately
