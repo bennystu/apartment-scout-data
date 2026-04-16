@@ -127,6 +127,11 @@ with st.sidebar:
         help="1 = poor, 5 = excellent. Listings without photos are always shown."
     )
 
+    min_match = st.slider(
+        "Min overall score", 0.0, 10.0, 0.0, step=0.5,
+        help="0–10 match score. Listings without a score are always shown."
+    )
+
     furnished_filter = st.radio(
         "Furnished",
         ["All", "Furnished only", "Unfurnished only"],
@@ -254,6 +259,10 @@ if new_only:
     if latest_date:
         listings = [l for l in listings if (l.get("first_seen") or "").startswith(latest_date)]
 
+# Match score filter (nulls always shown)
+if min_match > 0:
+    listings = [l for l in listings if l.get("match_score") is None or l["match_score"] >= min_match]
+
 # Sort by match_score descending (nulls last)
 listings.sort(key=lambda l: l.get("match_score") or 0, reverse=True)
 
@@ -281,7 +290,7 @@ PAGE_SIZE = 10
 total_pages = max(1, (total + PAGE_SIZE - 1) // PAGE_SIZE)
 
 # Reset to page 0 whenever filters change
-filter_key = f"{price_range}_{min_score}_{furnished_filter}_{status_filter}_{avail_april}_{avail_may}_{avail_june}_{avail_unknown}_{''.join(str(v) for v in town_filters.values())}_{other_towns}_{bed_any}_{bed_studio}_{bed_1}_{bed_2}_{train_l161}_{train_l124}_{train_none}_{max_distance_km}_{new_only}"
+filter_key = f"{price_range}_{min_score}_{min_match}_{furnished_filter}_{status_filter}_{avail_april}_{avail_may}_{avail_june}_{avail_unknown}_{''.join(str(v) for v in town_filters.values())}_{other_towns}_{bed_any}_{bed_studio}_{bed_1}_{bed_2}_{train_l161}_{train_l124}_{train_none}_{max_distance_km}_{new_only}"
 if st.session_state.get("filter_key") != filter_key:
     st.session_state.page = 0
     st.session_state.filter_key = filter_key
