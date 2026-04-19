@@ -15,6 +15,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import requests as _requests
 import streamlit as st
 
+from core.criteria import CRITERIA
+
 # ---------------------------------------------------------------------------
 # Data source — listings.json (Streamlit Cloud) or local SQLite
 # ---------------------------------------------------------------------------
@@ -94,7 +96,7 @@ st.set_page_config(
 )
 
 st.title("🏠 Apartment Scout")
-st.caption("Listings near AGC Glass Europe — Brussels side")
+st.caption("Brussels furnished apartments — Auderghem · Etterbeek · Ixelles · Watermael-Boitsfort · Woluwe-Saint-Pierre")
 
 # ---------------------------------------------------------------------------
 # Sidebar filters
@@ -112,15 +114,10 @@ with st.sidebar:
     bed_2 = st.checkbox("2 bed", value=True)
 
     st.subheader("Location")
-    max_distance_km = st.slider("Max distance from AGC (km)", 1, 35, 10, step=1)
-    KNOWN_TOWNS = ["Rixensart", "Genval", "La Hulpe", "Court-Saint-Étienne", "Profondsart"]
+    max_walk_min = st.slider("Max walk to metro Line 5 (min)", 1, 30, CRITERIA.max_walk_min, step=1)
+    KNOWN_TOWNS = list(CRITERIA.allowed_towns)
     town_filters = {t: st.checkbox(t, value=True) for t in KNOWN_TOWNS}
     other_towns = st.checkbox("Other / unknown", value=True)
-
-    st.subheader("Train line")
-    train_l161 = st.checkbox("L161 → Bruxelles-Luxembourg", value=True)
-    train_l124 = st.checkbox("L124 → Bruxelles-Midi", value=True)
-    train_none = st.checkbox("No train nearby", value=True)
 
     min_score = st.slider(
         "Min photo score", 1.0, 5.0, 1.0, step=0.5,
@@ -135,6 +132,7 @@ with st.sidebar:
     furnished_filter = st.radio(
         "Furnished",
         ["All", "Furnished only", "Unfurnished only"],
+        index=1,
     )
 
     st.subheader("Available from")
@@ -202,8 +200,8 @@ def _beds_matches(listing):
 
 listings = [l for l in listings if _beds_matches(l)]
 
-# Distance filter
-listings = [l for l in listings if (l.get("distance_km") or 0) <= max_distance_km or not l.get("distance_km")]
+# Metro walk filter
+listings = [l for l in listings if (l.get("walk_min") or 0) <= max_walk_min or not l.get("walk_min")]
 
 # Location filter
 def _town_matches(listing):
@@ -214,17 +212,6 @@ def _town_matches(listing):
     return other_towns  # no match → "Other"
 
 listings = [l for l in listings if _town_matches(l)]
-
-# Train line filter
-def _train_matches(listing):
-    info = listing.get("train_info") or ""
-    if "L161" in info:
-        return train_l161
-    if "L124" in info:
-        return train_l124
-    return train_none
-
-listings = [l for l in listings if _train_matches(l)]
 
 # Availability filter
 _LATE_MONTHS = ("juil", "août", "aout", "jul", "aug", "sept", "octo", "nove", "déce", "dece")
@@ -290,7 +277,7 @@ PAGE_SIZE = 10
 total_pages = max(1, (total + PAGE_SIZE - 1) // PAGE_SIZE)
 
 # Reset to page 0 whenever filters change
-filter_key = f"{price_range}_{min_score}_{min_match}_{furnished_filter}_{status_filter}_{avail_april}_{avail_may}_{avail_june}_{avail_unknown}_{''.join(str(v) for v in town_filters.values())}_{other_towns}_{bed_any}_{bed_studio}_{bed_1}_{bed_2}_{train_l161}_{train_l124}_{train_none}_{max_distance_km}_{new_only}"
+filter_key = f"{price_range}_{min_score}_{min_match}_{furnished_filter}_{status_filter}_{avail_april}_{avail_may}_{avail_june}_{avail_unknown}_{''.join(str(v) for v in town_filters.values())}_{other_towns}_{bed_any}_{bed_studio}_{bed_1}_{bed_2}_{max_walk_min}_{new_only}"
 if st.session_state.get("filter_key") != filter_key:
     st.session_state.page = 0
     st.session_state.filter_key = filter_key
@@ -321,9 +308,7 @@ for listing in page_listings:
     badge = "🆕 " if is_new else ("⭐ " if is_fav else "")
     price_str = f"€{listing['price']}/mo" if listing["price"] else "⚠ no price"
     town_str = listing.get("town") or "location unknown"
-    dist_str = f" · {listing['distance_km']}km" if listing.get("distance_km") else " · dist?"
-    dist_bxl_str = f" · {listing['distance_bxl_km']}km BXL" if listing.get("distance_bxl_km") else ""
-    train_str = f" · 🚆 {listing['train_info']}" if listing.get("train_info") else ""
+    metro_str = f" · 🚇 {listing['walk_min']}min to {listing['nearest_metro']}" if listing.get("walk_min") and listing.get("nearest_metro") else (" · 🚇 walk?" if not listing.get("walk_min") else "")
     furnished_str = ""
     if listing.get("furnished") == 1:
         furnished_str = " · Furnished"
@@ -336,7 +321,7 @@ for listing in page_listings:
     avail_str = f" · 📅 {listing['available_from']}" if listing.get("available_from") else ""
 
     with st.expander(
-        f"{badge}{price_str} — {town_str}{dist_str}{dist_bxl_str}{train_str}{beds_str}{m2_str}{furnished_str}{avail_str}{score_str}",
+        f"{badge}{price_str} — {town_str}{metro_str}{beds_str}{m2_str}{furnished_str}{avail_str}{score_str}",
         expanded=False,
     ):
         # Photos grid — all photos, 3 per row
@@ -406,7 +391,7 @@ for listing in page_listings:
                     st.session_state[f"dismissing_{lid}"] = True
                 if st.session_state.get(f"dismissing_{lid}"):
                     QUICK_REASONS = [
-                        "Too far from train station",
+                        "Too far from metro",
                         "Ground floor",
                         "Too dark / poor lighting",
                         "Rooms look too small",
