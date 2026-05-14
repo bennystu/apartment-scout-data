@@ -107,11 +107,11 @@ with st.sidebar:
     st.subheader("Price")
     price_range = st.slider("€/mo", 400, 1300, (400, 1100), step=50)
 
-    st.subheader("Bedrooms")
-    bed_any = st.checkbox("Any", value=True)
-    bed_studio = st.checkbox("Studio", value=True)
-    bed_1 = st.checkbox("1 bed", value=True)
-    bed_2 = st.checkbox("2 bed", value=True)
+    st.subheader("Property type")
+    pt_studio = st.checkbox("Studio", value=True)
+    pt_apartment = st.checkbox("Apartment", value=True)
+    pt_room = st.checkbox("Room in shared house", value=True)
+    pt_unknown = st.checkbox("Unknown type", value=True)
 
     st.subheader("Location")
     max_walk_min = st.slider("Max walk to metro Line 5 (min)", 1, 30, CRITERIA.max_walk_min, step=1)
@@ -141,6 +141,12 @@ with st.sidebar:
     avail_june = st.checkbox("June 2026", value=True)
     avail_unknown = st.checkbox("No start date listed", value=True)
     # July+ always hidden — too far out
+
+    st.subheader("Rental type")
+    type_sublet = st.checkbox("Sublet (sous-location)", value=True)
+    type_short = st.checkbox("Short-stay (not sublet)", value=True)
+    type_regular = st.checkbox("Regular rental (1yr / 3yr)", value=True)
+    type_unknown_contract = st.checkbox("Unknown contract type", value=True)
 
     status_filter = st.selectbox(
         "Status",
@@ -183,22 +189,18 @@ elif status_filter == "Contacted":
 # Price minimum
 listings = [l for l in listings if not l.get("price") or l["price"] >= price_range[0]]
 
-# Bedrooms filter
-def _beds_matches(listing):
-    if bed_any:
-        return True
-    beds = listing.get("bedrooms")
-    if beds is None:
-        return True  # unknown — always show
-    if beds == 0:
-        return bed_studio
-    if beds == 1:
-        return bed_1
-    if beds == 2:
-        return bed_2
-    return False
+# Property type filter
+def _proptype_matches(listing):
+    pt = listing.get("property_type")
+    if pt == "studio":
+        return pt_studio
+    if pt == "apartment":
+        return pt_apartment
+    if pt == "room":
+        return pt_room
+    return pt_unknown
 
-listings = [l for l in listings if _beds_matches(l)]
+listings = [l for l in listings if _proptype_matches(l)]
 
 # Metro walk filter
 listings = [l for l in listings if (l.get("walk_min") or 0) <= max_walk_min or not l.get("walk_min")]
@@ -237,6 +239,20 @@ def _avail_matches(listing):
     return avail_unknown
 
 listings = [l for l in listings if _avail_matches(l)]
+
+# Rental type filter
+def _type_matches(listing):
+    is_sub = listing.get("is_sublet")
+    cl = listing.get("contract_length")
+    if is_sub == 1:
+        return type_sublet
+    if cl == "short":
+        return type_short
+    if cl in ("1year", "3year"):
+        return type_regular
+    return type_unknown_contract
+
+listings = [l for l in listings if _type_matches(l)]
 
 # Latest batch filter — show only listings added in the most recent scrape
 if new_only:
@@ -277,7 +293,7 @@ PAGE_SIZE = 10
 total_pages = max(1, (total + PAGE_SIZE - 1) // PAGE_SIZE)
 
 # Reset to page 0 whenever filters change
-filter_key = f"{price_range}_{min_score}_{min_match}_{furnished_filter}_{status_filter}_{avail_april}_{avail_may}_{avail_june}_{avail_unknown}_{''.join(str(v) for v in town_filters.values())}_{other_towns}_{bed_any}_{bed_studio}_{bed_1}_{bed_2}_{max_walk_min}_{new_only}"
+filter_key = f"{price_range}_{min_score}_{min_match}_{furnished_filter}_{status_filter}_{avail_april}_{avail_may}_{avail_june}_{avail_unknown}_{''.join(str(v) for v in town_filters.values())}_{other_towns}_{pt_studio}_{pt_apartment}_{pt_room}_{pt_unknown}_{max_walk_min}_{new_only}_{type_sublet}_{type_short}_{type_regular}_{type_unknown_contract}"
 if st.session_state.get("filter_key") != filter_key:
     st.session_state.page = 0
     st.session_state.filter_key = filter_key
@@ -324,14 +340,16 @@ for listing in page_listings:
         f"{badge}{price_str} — {town_str}{metro_str}{beds_str}{m2_str}{furnished_str}{avail_str}{score_str}",
         expanded=False,
     ):
-        # Photos grid — all photos, 3 per row
+        # Photos grid — 3 per row
         photos = listing.get("photos") or []
         if photos:
-            for url in photos:
-                try:
-                    st.image(url, use_container_width=True)
-                except Exception:
-                    st.caption("(photo unavailable)")
+            cols = st.columns(3)
+            for i, url in enumerate(photos):
+                with cols[i % 3]:
+                    try:
+                        st.image(url, use_container_width=True)
+                    except Exception:
+                        st.caption("(photo unavailable)")
 
         # Details grid
         detail_col, action_col = st.columns([3, 1])
@@ -347,7 +365,10 @@ for listing in page_listings:
                 details.append(f"**Bedrooms:** {listing['bedrooms']}")
             if listing.get("available_from"):
                 details.append(f"**Available:** {listing['available_from']}")
-            if listing.get("contract_length"):
+            if listing.get("duration_text"):
+                end = f" → {listing['end_date']}" if listing.get("end_date") else ""
+                details.append(f"**Duration:** {listing['duration_text']}{end}")
+            elif listing.get("contract_length"):
                 labels = {"short": "Short-stay", "1year": "1-year lease", "3year": "3-year lease"}
                 details.append(f"**Contract:** {labels.get(listing['contract_length'], listing['contract_length'])}")
             if listing.get("contact"):
